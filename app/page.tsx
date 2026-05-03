@@ -79,7 +79,7 @@ export default function Resume() {
                     </li>
                     <li>
                       執行系統分析 (SA) 與設計
-                      (SD)，維護智能化標籤管理系統與跨組織數據傳輸機制[。
+                      (SD)，維護智能化標籤管理系統與跨組織數據傳輸機制。
                     </li>
                   </ul>
                 </div>
@@ -90,7 +90,7 @@ export default function Resume() {
                   <div className="space-y-4 ml-2">
                     <div>
                       <p className="font-bold text-slate-700 mb-1">
-                        ■ MES 標籤程式開發
+                        ■ MES 產品標籤程式開發
                       </p>
                       <ul className="list-decimal list-outside ml-6 space-y-1 text-gray-600">
                         <li>設計可擴展的標籤架構，支援多產線客製化需求。</li>
@@ -107,7 +107,7 @@ export default function Resume() {
                       <ul className="list-decimal list-outside ml-6 space-y-1 text-gray-600">
                         <li>
                           開發 Raw Data
-                          自動轉換引擎，支援多樣化客戶資料格式之無縫同步。
+                          客製轉換系統，支援多樣化客戶資料格式之無縫同步。
                         </li>
                         <li>
                           建立自動化 FTP 數據上傳機制，確保資料交換之即時性。
@@ -121,8 +121,8 @@ export default function Resume() {
                       </p>
                       <ul className="list-decimal list-outside ml-6 space-y-1 text-gray-600">
                         <li>
-                          導入現代前端框架，運用 AI
-                          工具協助開發，大幅縮減重複性任務之工時成本。
+                          導入現代前端框架(Vue.js)，運用 AI
+                          工具協助開發，將繁瑣的xml維護流程，轉化為直覺的GUI介面，大幅縮減約80％工時。
                         </li>
                       </ul>
                     </div>
@@ -139,9 +139,7 @@ export default function Resume() {
                   2019.12 - 2024.11
                 </span>
               </div>
-              <p className="font-semibold text-slate-600 mb-3">
-                系統開發工程師
-              </p>
+              <p className="font-semibold text-slate-600 mb-3">軟體工程師</p>
               <div className="flex flex-wrap gap-2 mb-6">
                 {[
                   "ASP.NET (C#)",
@@ -170,8 +168,7 @@ export default function Resume() {
                       負責 BPM 電子簽核系統開發與維護，並與 ERP 系統高度整合。
                     </li>
                     <li>
-                      協助智能化系統導入，包含生產報表、可視化看板與流程優化[cite:
-                      1]。
+                      協助智能化系統導入，包含生產報表、可視化看板與流程優化。
                     </li>
                     <li>執行 SA/SD/PG 全流程開發，確保系統滿足業務需求。</li>
                   </ul>
@@ -267,11 +264,11 @@ export default function Resume() {
                       </p>
                       <ul className="list-decimal list-outside ml-6 space-y-1">
                         <li>
-                          使用 **C#** 開發 Kiosk
+                          使用C#開發 Kiosk
                           端系統，實現客戶自助入住與退房流程，降低人力維運成本。
                         </li>
                         <li>
-                          跨語言整合 **Python OpenCV**
+                          跨語言整合Python OpenCV
                           技術，實作身分證件號碼自動辨識與驗證功能。
                         </li>
                       </ul>
@@ -282,11 +279,11 @@ export default function Resume() {
                       </p>
                       <ul className="list-decimal list-outside ml-6 space-y-1">
                         <li>
-                          運用 **ASP.NET**
+                          運用ASP.NET
                           建置線上訂房平台，處理客戶預約資料與後台管理邏輯。
                         </li>
                         <li>
-                          開發 **Swift iOS App**，透過 **WebView**
+                          開發Swift iOS App，透過WebView
                           嵌入訂房模組，提供一致性的跨平台使用者體驗。
                         </li>
                       </ul>
@@ -315,7 +312,7 @@ export default function Resume() {
                       於科技大廠負責精密氣體系統檢測，具備高標準 SOP 執行能力。
                     </li>
                     <li>
-                      透過嚴謹測試流程確保硬體系統穩定性，具備跨團隊溝通能力[。
+                      透過嚴謹測試流程確保硬體系統穩定性，具備跨團隊溝通能力。
                     </li>
                   </ul>
                 </div>
@@ -504,42 +501,71 @@ export default function Resume() {
           </section>
           {/* About Me Section */}
           {/* About Me / Autobiography Section */}
-          <section className="mt-8">
-            <h3 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-4">
+          <section className="mt-12">
+            <h3 className="text-2xl font-bold border-b-2 border-slate-200 pb-2 mb-8 text-slate-800">
               關於我 / 自傳
             </h3>
-            <div className="p-6 md:p-8 bg-white border border-gray-100 rounded-lg shadow-sm">
-              <div className="text-sm md:text-base text-gray-700 leading-relaxed space-y-6">
-                {/* 專業背景與現況 */}
-                <p>
-                  我是<strong>許彰麟 (Brandon)</strong>，來自台南市，畢業於
-                  <strong>南台科技大學資訊管理研究所</strong>。目前是一位擁有
-                  <strong>六年以上全端開發經驗</strong>
-                  的軟體工程師。我熱愛透過技術解決問題，始終秉持著「持續學習，不設限技術邊界」的職涯信念。目前任職於
-                  <strong>南茂科技</strong>，負責 MES
-                  標籤系統開發、智慧報表系統建置、以及生產數據自動化轉換等核心專案。這些經驗使我對於系統分析、架構設計有更進一步的掌握，
-                  也更擅長需求溝通與專案規劃能力。
-                </p>
 
-                {/* 職涯歷練與價值觀 */}
+            <div className="text-sm md:text-base text-gray-700 leading-relaxed space-y-10 px-1">
+              {/* 自我介紹 */}
+              <div>
                 <p>
-                  在南茂之前，我於<strong>可成科技</strong>服務近五年，負責 MES
-                  相關系統、生產數據報表、企業內部網站與電子表單開發等多元專案。這段經歷讓我深刻理解企業數位轉型的需求，
-                  培養了我從使用者角度出發、注重系統穩定性與可維護性的開發思維。在軟體開發過程中，我始終注重程式架構與性能優化，
-                  並相信完善的軟體除了功能達成，更需具備可靠性與可擴展性，確保專案能從
-                  <strong>「負責」做到「當責」</strong>。
+                  我是許彰麟，來自台南市，畢業於南台科技大學資訊管理研究所。現任職於南茂科技，主要負責
+                  MES
+                  產品標籤系統開發、智慧報表系統建置以及生產數據自動化轉換等核心專案。這些經驗使我對系統分析與架構設計有更深入的掌握，並擅長處理複雜的需求溝通與專案規劃。
                 </p>
+              </div>
 
-                {/* 技術精進與未來展望 */}
-                <p>
-                  持續學習是我的職涯信念。我利用業餘時間透過自學、參加技術講座，並
-                  <strong>善用 AI 工具精進技術能力</strong>
-                  ，將所學應用於實際專案中 。在未來的職涯中，我期許自己朝
-                  <strong>資深工程師</strong>
-                  邁進，在系統架構設計、團隊協作與專案領導上有更深入的磨練
-                  。我將持續強化抗壓性、溝通能力與技術深度，透過紮實的基礎與積極的態度，在新的挑戰中為公司帶來貢獻，
-                  與團隊共創價值。
+              {/* 工作信念與實績 */}
+              <div>
+                <h4 className="text-lg font-bold text-slate-800 mb-3 flex items-center">
+                  <span className="w-1.5 h-6 bg-slate-800 mr-3"></span>
+                  工作信念
+                </h4>
+                <p className="mb-4">
+                  我深信優秀的軟體不只是功能達成，更要能真正解決問題。在專案開發中，我習慣從使用者痛點、維護穩定性及架構靈活性三個維度進行思考，確保開發成果能從「負責」進化到
+                  「當責」。
                 </p>
+              </div>
+
+              {/* 持續學習與 AI 應用 */}
+              <div>
+                <h4 className="text-lg font-bold text-slate-800 mb-3 flex items-center">
+                  <span className="w-1.5 h-6 bg-slate-800 mr-3"></span>
+                  持續學習與成長
+                </h4>
+                <p className="mb-3">
+                  技術日新月異，持續學習是我的職涯信念。我透過以下方式精進自己：
+                </p>
+                <ul className="list-disc list-outside ml-6 space-y-2 text-gray-700">
+                  <li>
+                    參加技術社群與研討會： 吸收業界最新趨勢，如參與 GDG NCKU
+                    開發者社群活動。
+                  </li>
+                  <li>
+                    善用 AI 工具 (Gemini、Claude)：
+                    優化程式碼品質並提升開發效率，實踐 AI 驅動開發。
+                  </li>
+                  <li>
+                    將學習成果應用於實際專案：
+                    從實戰中累積經驗，如開發個人專案《衣起記》與 MemePaste。
+                  </li>
+                </ul>
+              </div>
+
+              {/* 未來展望 */}
+              <div>
+                <h4 className="text-lg font-bold text-slate-800 mb-3 flex items-center">
+                  <span className="w-1.5 h-6 bg-slate-800 mr-3"></span>
+                  展望未來
+                </h4>
+                <p>
+                  展望未來，我期許自己成為團隊中的技術引領者。我熱於將開發心法、架構思維及實務經驗轉化為團隊資產，透過技術分享與架構討論，協助夥伴共同成長並優化整體開發品質。
+                </p>
+                <p>
+                  在上述工作經驗中，磨鍊了自己的抗壓性、細心度、溝通表達的能力特質，並時刻檢視自己與修正不足之處，相信定能勝任此職務，並為貴公司創造正面價值，與團隊共同成長。
+                </p>
+                <p>感謝您撥空閱讀我的自傳，希望能有機會與您面談。</p>
               </div>
             </div>
           </section>

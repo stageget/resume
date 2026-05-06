@@ -20,16 +20,15 @@ export default function Resume() {
               <h1 className="text-4xl font-bold mb-2">許彰麟 (Brandon)</h1>
               <h2 className="text-xl text-slate-300 mb-4">軟體工程師</h2>
               <p className="leading-relaxed text-sm md:text-base text-slate-100">
-                擁有六年以上全端開發經驗的軟體工程師，碩士畢業。
-                在職涯中，我不僅負責系統開發與維運，同時也擔任 SA/SD 角色。
-                技術方面，我專注於 ASP.NET (C#) 後端開發，搭配
-                JavaScript、Vue.js 等現代框架，
-                並熟悉多種資料庫系統（Oracle、MSSQL、MySQL、Informix）。
+                您好，我是許彰麟，目前任職於南茂科技的軟體工程師，
+                負責MES產品標籤程式、智慧數據報表開發等。
                 <br />
+                我對於工作充滿熱情，擁有6年以上的前端後端開發經驗，包含網頁、視窗程式等，
                 <br />
-                持續學習是我的職涯信念，我利用業餘時間自主學習
-                React、Next.js、React Native 等技術， 並積極運用 AI
-                工具提升開發效率。
+                並且樂於持續學習新的技術，期望在未來的職場生涯，
+                自己的表現能盡善盡美，並帶出更多成果。
+                持續學習是我的職涯信念，我利用業餘時間自主學習 React、React
+                Native 等技術， 並積極運用 AI 工具提升開發效率。
               </p>
             </div>
           </div>
@@ -102,7 +101,7 @@ export default function Resume() {
                     </div>
                     <div>
                       <p className="font-bold text-slate-700 mb-1">
-                        ■ 智慧報表數據開發
+                        ■ 智慧數據報表開發
                       </p>
                       <ul className="list-decimal list-outside ml-6 space-y-1 text-gray-600">
                         <li>
